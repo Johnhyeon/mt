@@ -128,7 +128,17 @@ async function fillPaymentInfo(frame) {
 
         await sleep(300);
 
-        // 2. 입금은행 선택 (예: 기업은행 -> value="03")
+        // 2. 입금은행 선택  
+        // value="03">기업은행
+        // value="04">국민은행
+        // value="11">농협은행
+		// value="81">하나은행
+		// value="20">우리은행
+		// value="88">신한은행
+		// value="39">경남은행
+		// value="71">우체국
+		// value="32">부산은행
+		// value="31">대구은행
         const bankSelect = frame.document.querySelector('select[name="bankCode"]');
         if (bankSelect) {
             bankSelect.value = "04"; // 국민은행
