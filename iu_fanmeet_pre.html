@@ -1,0 +1,104 @@
+<div class="box_ticketing_process" style="">
+                    <dl class="date_choice">
+                        <dt class="tit_process tit_date_choice"><span class="img">날짜 선택</span></dt>
+                        <dd class="sorting">
+                        <!-- 클래식, 콘서트 -->
+                                <button class="type_calendar">캘린더형</button><!-- 해당유형에 따라 타입 Show -->
+                                <button class="type_list show">리스트형</button>
+                            </dd>
+                        <dd class="cont_process">
+                            <div class="box_type_list" id="box_list_date" style=""><!-- 리스트 타입일시 show -->
+                                <ul class="list_type" id="list_date" style="position: relative;">
+        <li data-perfday="20250913" data-prodid="211740" data-poccode="SC0002" data-perftypecode="GN0001" data-selltypecode="ST0001" data-seatcntdisplayyn="N" class="item_date first on" id="dateSelect_20250913">
+             <button class="">
+                <span class="txt">2025년 09월 13일 토요일</span>
+             </button>
+        </li>
+        <li data-perfday="20250914" data-prodid="211740" data-poccode="SC0002" data-perftypecode="GN0001" data-selltypecode="ST0001" data-seatcntdisplayyn="N" class="item_date" id="dateSelect_20250914">
+             <button class="">
+                <span class="txt">2025년 09월 14일 일요일</span>
+             </button>
+        </li>
+</ul>
+                            </div>
+                            <div class="box_type_calendar" id="box_calendar" style="display: none;"><!-- 캘린더 타입일시 show -->
+                                <div class="box_date">
+                                    <a href="javascript:;" class="btn_calendar_prev ">이전</a>
+                                    <p class="tit_date"><span id="year_month">2025.9</span></p>
+                                    <a href="javascript:;" class="btn_calendar_next ">다음</a>
+                                </div>
+                                <table class="tbl_calendar">
+                                    <caption class="hide">날짜선택 캘린더형</caption>
+                                    <colgroup>
+                                        <col style="width:38px;">
+                                        <col style="width:38px;">
+                                        <col style="width:38px;">
+                                        <col style="width:38px;">
+                                        <col style="width:38px;">
+                                        <col style="width:38px;">
+                                        <col style="width:38px;">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" class="sun">SUN</th><!-- class holi은 공휴일 컬러 -->
+                                            <th scope="col">MON</th>
+                                            <th scope="col">TUE</th>
+                                            <th scope="col">WED</th>
+                                            <th scope="col">THU</th>
+                                            <th scope="col">FRI</th>
+                                            <th scope="col" class="sat">SAT</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="cal_wrapper"><tr><td>&nbsp;</td><td class=""><button class="ticketCalendarBtn" data-perfday="20250901" disabled="disabled" id="calendar_SelectId_20250901">1</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250902" disabled="disabled" id="calendar_SelectId_20250902">2</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250903" disabled="disabled" id="calendar_SelectId_20250903">3</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250904" disabled="disabled" id="calendar_SelectId_20250904">4</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250905" disabled="disabled" id="calendar_SelectId_20250905">5</button></td><td class="sat"><button class="ticketCalendarBtn" data-perfday="20250906" disabled="disabled" id="calendar_SelectId_20250906">6</button></td></tr><tr><td class="sun"><button class="ticketCalendarBtn" data-perfday="20250907" disabled="disabled" id="calendar_SelectId_20250907">7</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250908" disabled="disabled" id="calendar_SelectId_20250908">8</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250909" disabled="disabled" id="calendar_SelectId_20250909">9</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250910" disabled="disabled" id="calendar_SelectId_20250910">10</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250911" disabled="disabled" id="calendar_SelectId_20250911">11</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250912" disabled="disabled" id="calendar_SelectId_20250912">12</button></td><td class="sat default"><button class="ticketCalendarBtn" data-perfday="20250913" id="calendar_SelectId_20250913" data-prodid="211691" data-poccode="SC0002" data-perftypecode="GN0001" data-selltypecode="ST0001" data-seatcntdisplayyn="N">13</button></td></tr><tr><td class="sun"><button class="ticketCalendarBtn" data-perfday="20250914" id="calendar_SelectId_20250914" data-prodid="211691" data-poccode="SC0002" data-perftypecode="GN0001" data-selltypecode="ST0001" data-seatcntdisplayyn="N">14</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250915" disabled="disabled" id="calendar_SelectId_20250915">15</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250916" disabled="disabled" id="calendar_SelectId_20250916">16</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250917" disabled="disabled" id="calendar_SelectId_20250917">17</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250918" disabled="disabled" id="calendar_SelectId_20250918">18</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250919" disabled="disabled" id="calendar_SelectId_20250919">19</button></td><td class="sat"><button class="ticketCalendarBtn" data-perfday="20250920" disabled="disabled" id="calendar_SelectId_20250920">20</button></td></tr><tr><td class="sun"><button class="ticketCalendarBtn" data-perfday="20250921" disabled="disabled" id="calendar_SelectId_20250921">21</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250922" disabled="disabled" id="calendar_SelectId_20250922">22</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250923" disabled="disabled" id="calendar_SelectId_20250923">23</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250924" disabled="disabled" id="calendar_SelectId_20250924">24</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250925" disabled="disabled" id="calendar_SelectId_20250925">25</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250926" disabled="disabled" id="calendar_SelectId_20250926">26</button></td><td class="sat"><button class="ticketCalendarBtn" data-perfday="20250927" disabled="disabled" id="calendar_SelectId_20250927">27</button></td></tr><tr><td class="sun"><button class="ticketCalendarBtn" data-perfday="20250928" disabled="disabled" id="calendar_SelectId_20250928">28</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250929" disabled="disabled" id="calendar_SelectId_20250929">29</button></td><td class=""><button class="ticketCalendarBtn" data-perfday="20250930" disabled="disabled" id="calendar_SelectId_20250930">30</button></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></tbody>
+                                </table>
+                            </div>
+                        </dd>
+                    </dl>
+                    <dl class="time_choice">
+                        <dt class="tit_process tit_time_choice"><span class="img">시간 선택</span></dt>
+                        <dd class="cont_process" id="section_time">
+    <div class="box_type_list">
+        <ul class="list_type " id="list_time">
+    <li class="item_time first on" data-prodid="211740" data-poccode="SC0002" data-perfday="20250913" data-scheduleno="100001" data-selltypecode="ST0001" data-seatcntdisplayyn="N" data-perftypecode="GN0001" data-seatpoc="1" data-cancelclosedt="20250912165959">
+         <button class="">
+            <span class="txt" style="text-align:center;">17시 00분
+                <span class="soldouttext_20250913_100001_ST0001"></span>
+            </span>
+         </button>
+    </li>
+</ul>
+    </div>
+</dd>
+                    </dl>
+                    <dl class="seat_choice">
+                        <dt class="tit_process tit_seat_choice"><span class="img">좌석 선택</span></dt>
+                        <dd class="cont_process" id="section_seat">
+    <div class="box_type_list box_type_list_all">
+        <p class="seat_text">선택한 회차별 좌석 현황</p>
+        <ul class="list_seat" id="list_seat">
+    <li class="item_seat first">
+       <p class="">
+            <span class="txt">
+                <span class="in">
+                </span>
+            </span>
+       </p>
+    </li>
+</ul>
+    </div>
+</dd>
+                    </dl>
+                </div>
+
+<div style="display: block;" class="btn_ticketing_type">
+                    <div class="btn_table">
+                        <div class="box_txt" id="box_tkt_txt">
+                        </div>
+
+                    <div class="box_btn">
+                                    <button class="button btColorGreen" id="ticketReservation_Btn" data-prodid="211740" data-prodtypecode="PT0001" data-authetypecode="">
+                                        <span class="btSizeL">예매하기</span>
+                                    </button>
+                                </div>
+                            </div>
+                </div>
