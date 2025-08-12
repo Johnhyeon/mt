@@ -54,7 +54,7 @@ async function searchConcert() {
         searchConcert();
         return;
     }
-    await sleep(500);
+    await sleep(2000);
     select_day(data.date.replaceAll("-", ""));
     await sleep(500);
     select_time(formatTime(data.time));
@@ -62,7 +62,7 @@ async function searchConcert() {
 
     await sleep(5000);
     
-    document.getElementsByClassName("reservationBtn")[0].click();
+    document.getElementById("ticketReservation_Btn").click();
 
 
     console.log("clicked reservation");
